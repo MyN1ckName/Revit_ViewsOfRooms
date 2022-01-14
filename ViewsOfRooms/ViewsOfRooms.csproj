@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net47</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Revit.RevitApi.x64" Version="2019.0.0" />
+    <PackageReference Include="Revit.RevitApiUI.x64" Version="2019.0.0" />
+  </ItemGroup>
+
+</Project>
